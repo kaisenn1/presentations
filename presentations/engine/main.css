@@ -4661,6 +4661,10 @@ input[type="checkbox"].task-list-item-checkbox:checked::before {
     border:none;
 }
 
+.reveal [class*="layout-"] > div > .is-single-quote p{
+    font-style:italic;
+}
+
 .reveal [class*="layout-"] > div > .is-single-quote .line{
     border-top: 2px solid;
     width: 30%;
